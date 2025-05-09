@@ -1,6 +1,6 @@
 # 🧠 MRI Brain Scan Classifier + NFT Minting on Blockchain
 
-This project is a smart mix of **AI** and **blockchain** — it can predict the stage of Alzheimer’s from an **MRI image** using a trained deep learning model and stores the result as an **NFT** on a local Ethereum blockchain.
+This project is a smart mix of **AI** and **blockchain** it can predict the stage of Alzheimer’s from an **MRI image** using a trained deep learning model and stores the result as an **NFT** on a local Ethereum blockchain.
 
 It’s like a brain scan doctor that gives you a prediction and saves it on the blockchain!
 
