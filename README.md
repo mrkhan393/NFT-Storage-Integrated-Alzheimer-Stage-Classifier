@@ -60,14 +60,14 @@ It’s like a brain scan doctor that gives you a prediction and saves it on the 
 git clone https://github.com/your-username/mri-nft-classifier.git
 cd mri-nft-classifier
 
-2. Set up Python environment
+### 2. Set up Python environment
 pip install -r requirements.txt
 Create a .env file and add:
 PRIVATE_KEY=your_private_key
 ACCOUNT_ADDRESS=your_account_address
 CONTRACT_ADDRESS=your_deployed_contract_address
 
-4. Start the blockchain (Hardhat)
+### 4. Start the blockchain (Hardhat)
 In a separate terminal:
 npx hardhat node
 
@@ -75,10 +75,10 @@ And deploy the smart contract:
 npx hardhat run scripts/deploy.js --network localhost
 Update .env with the contract address you get after deployment.
 
-4. Run the Flask server
+### 5. Run the Flask server
 python app.py
 
-6. Open the app
+### 6. Open the app
 Visit http://localhost:5000 in your browser.
 Testing
 Try uploading:
