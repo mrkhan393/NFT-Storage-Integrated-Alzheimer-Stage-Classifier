@@ -57,55 +57,36 @@ It’s like a brain scan doctor that gives you a prediction and saves it on the 
 > Make sure you have Python and Node.js installed.
 
 ### 1. Clone this repository
-
-```bash
 git clone https://github.com/your-username/mri-nft-classifier.git
 cd mri-nft-classifier
+
 2. Set up Python environment
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Create a .env file and add:
-
-ini
-Copy
-Edit
 PRIVATE_KEY=your_private_key
 ACCOUNT_ADDRESS=your_account_address
 CONTRACT_ADDRESS=your_deployed_contract_address
-3. Start the blockchain (Hardhat)
+
+4. Start the blockchain (Hardhat)
 In a separate terminal:
-
-bash
-Copy
-Edit
 npx hardhat node
-And deploy the smart contract:
 
-bash
-Copy
-Edit
+And deploy the smart contract:
 npx hardhat run scripts/deploy.js --network localhost
 Update .env with the contract address you get after deployment.
 
 4. Run the Flask server
-bash
-Copy
-Edit
 python app.py
-5. Open the app
-Visit http://localhost:5000 in your browser.
 
+6. Open the app
+Visit http://localhost:5000 in your browser.
 Testing
 Try uploading:
 
 A real MRI image → Should give prediction + NFT hash.
-
-A random image → Should tell you it's not a valid MRI.
+A random image → Should tell you it's not a MRI image.
 
 Fun Fact
-This project was built to show how AI and blockchain can work together — combining health predictions with the trust and transparency of decentralized storage.
+This project was built to show how AI and blockchain can work together, combining health predictions with the trust and transparency of decentralized storage.
 
-Contact
 Feel free to reach out if you have questions or ideas!
