@@ -34,7 +34,7 @@ It’s like a brain scan doctor that gives you a prediction and saves it on the 
 - **Web3.py** – to talk to the Ethereum blockchain from Python.
 - **Hardhat** – to run a local Ethereum network and deploy the contract.
 
-###  Frontend
+### Frontend
 - **HTML + JavaScript** – minimal UI to upload images and view results.
 
 ---
